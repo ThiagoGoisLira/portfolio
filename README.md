@@ -10,7 +10,7 @@
 
 Você pode visualizar o portfólio online diretamente através do link abaixo (hospedado no GitHub Pages):
 
-**[Acessar Portfólio Online](https://thiagogoislira.github.io/portifolio/)**
+**[Acessar Portfólio Online](https://thiagogoislira.github.io/portfolio/)**
 
 ---
 
