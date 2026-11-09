@@ -12,8 +12,9 @@
   --cor-accent-hover: #0d9488;
   --cor-borda: #e2e8f0;
   --cor-cartao: #ffffff;
-  --cor-frontend: #3b82f6;
+  --cor-frontend: #0f1011;
   --cor-backend: #14b8a6;
+  --cor-hobby: #f51414;
   
   /* Sombras */
   --sombra-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
@@ -381,6 +382,9 @@ button {
 .cartao-tecnologia[data-categoria="backend"]:hover {
   background: linear-gradient(135deg, rgba(20, 184, 166, 0.05), rgba(20, 184, 166, 0.1));
 }
+.cartao-tecnologia[data-categoria="hobby"]:hover {
+  background: linear-gradient(135deg, rgba(224, 12, 12, 0.05), rgba(59, 130, 246, 0.1));
+}
 
 .cartao-tecnologia__icone-container {
   display: flex;
@@ -443,6 +447,10 @@ button {
 .cartao-tecnologia__categoria-badge--backend {
   background-color: rgba(20, 184, 166, 0.1);
   color: var(--cor-backend);
+}
+.cartao-tecnologia__categoria-badge--hobby {
+  background-color: rgba(245, 20, 20, 0.1);
+  color: var(--cor-hobby);
 }
 
 /* SEÇÃO PROJETOS
